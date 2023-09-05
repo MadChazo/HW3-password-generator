@@ -17,7 +17,7 @@ Click on the Generate Password button to start the generation process. You will 
 
 ## Credits
 
-The HTML and CSS for this website, as well as a portion of the JavaScript, was provided by the University of Richmond coding boot camp. The actual password generation was implemented by me using JavaScript. I referenced an answer by Rob M. on stackoverflow that taught me about using for...while to make sure that the user enters the correct type of data in the prompt. That answer may be found [here](https://stackoverflow.com/a/15047174).
+The HTML and CSS for this website, as well as a portion of the JavaScript, was provided by the University of Richmond coding boot camp. The actual password generation was implemented by me using JavaScript, but I used a few pieces of code found on the web to help me implement my generator as efficiently as possible. I referenced an answer by Rob M. on stackoverflow that taught me about using for...while to make sure that the user enters the correct type of data in the prompt. That answer may be found [here](https://stackoverflow.com/a/15047174). As I wanted to make sure my passwords were as close to random as possible while still including all required characters, I included a Fisher-Yates shuffle function for strings that I learned from Andy E on stackoverflow. That answer may be found [here](https://stackoverflow.com/a/3943985). Thanks so much to them for sharing their expertise with less experienced coders like myself!
 
 ## License
 
